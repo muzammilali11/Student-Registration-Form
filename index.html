@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<form>
+    <h1 style="text-align: center;">Student Registration Form</h1>
+    <hr>
+    <img src="./Screenshot 2024-01-04 133946.png" alt="Random pic"  width="1000px" height="400px" align="right">
+    <form action="/server"></form>
+    <div>
+        <label for="FName">First Name :</label>
+        <input type="text" placeholder="Enter your first name" required id="FName">
+    </div>
+    <br>
+    <div>
+        <label for="LName">Last Name :</label>
+        <input type="text" placeholder="Enter your last name" id="LName">
+    </div>
+    <br>
+    <div>
+        <label for="cr">Course :</label>
+        <select Name="Courses">
+        <option value="web & app">Web & App Development </option>
+        <option value="CCA">Certified Computer Accountantcy</option>
+        <option value="CCO">Certified Computer Operator</option>
+        <option value="graphic designing">Graphic designing</option>
+        <option value="pth">python programming</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="Gender">Gender :</label>
+        <input type="radio" value="Male" id="Male" name="Gender">
+        <label for="Male">Male</label>
+        <input type="radio" value="Female" id="Female" name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" value="Other" id="Other" name="Gender">
+        <label for="Other">Other</label>
+    </div>
+    <br>
+    <div>
+        <label for="ph">Phone :</label>
+        <input type="number" placeholder="Enter your number"  required id="ph">
+    </div>
+    <br>
+    <div>
+        <label for="DOB">Date Of Birth :</label>
+        <input type="date" id="DOB" name="DOB">
+    </div>
+    <br>
+    <div>
+        <label for="CA">Current Address :</label>
+        <input type="text" placeholder="Enter your addrees" id="CA">
+    </div>
+    <br>
+    <div>
+    <label for="email">Email :</label>
+    <input type="email" placeholder="Enter your email" required id="email">
+</div>
+    <br>
+    <div>
+        <label for="pass">Password :</label>
+        <input type="password" placeholder="Enter your password" id="pass">
+    </div>
+    <br>
+    <div>
+        <label for="ret">Retype Password :</label>
+        <input type="password" placeholder="Enter your password" required id="ret">
+    </div>
+    <br>
+    <button>Register</button>
+</form>
+</body>
+</html>
